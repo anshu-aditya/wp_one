@@ -16,7 +16,7 @@
 	<div class="main">
 		<?php if( have_posts() ): ?>
 			<?php while ( have_posts() ): the_post() ?>
-	<h3 class="title"><?php the_title(); ?></h3>
+	
 	<div class="meta">
 	Created By <?php the_author() ?> on <?php the_time( 'jS M Y' ) ?>
 	</div>
