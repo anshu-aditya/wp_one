@@ -39,6 +39,10 @@ h3.title{
 	padding: 0.1% 5%;
 	font-family: 'Bree Serif', serif;
 }
+h3.title a.perlink{
+	text-decoration: none;
+	color: red;
+}
 
 div.meta{
 	margin-left: 5%;

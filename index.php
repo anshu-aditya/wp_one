@@ -16,7 +16,11 @@
 	<div class="main">
 		<?php if( have_posts() ): ?>
 			<?php while ( have_posts() ): the_post() ?>
-	<h3 class="title"><?php the_title(); ?></h3>
+	<h3 class="title">
+		<a class="perlink" href="<?php the_permalink(); ?>">
+			<?php the_title(); ?>
+		</a>
+		</h3>
 	<div class="meta">
 	Created By <?php the_author() ?> on <?php the_time( 'jS M Y' ) ?>
 	</div>
